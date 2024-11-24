@@ -1,23 +1,20 @@
 body {
-  background: url('images/full-moon-maplestory-4s6k1cntl6b37k0x.jpg') no-repeat center center fixed;
+  background-image: url('images/full-moon-maplestory-4s6k1cntl6b37k0x.jpg');
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  min-height: 100vh;
+  font-family: Arial, sans-serif;
   color: white;
-  font-family: 'Arial', sans-serif;
 }
 
 .text-container {
   text-align: center;
   margin-top: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%; /* Ensures the text is vertically centered */
 }
 
 h1 {
