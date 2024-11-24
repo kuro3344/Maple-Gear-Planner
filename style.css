@@ -1,15 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maple Gear Planner</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="text-container">
-    <h1>Welcome to Maple Gear Planner</h1>
-    <p>Your journey starts here.</p>
-  </div>
-</body>
-</html>
+body {
+  background: url('images/full-moon-maplestory-4s6k1cntl6b37k0x.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.text-container {
+  text-align: center;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensures the text is vertically centered */
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
