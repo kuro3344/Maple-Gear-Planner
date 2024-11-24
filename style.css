@@ -1,29 +1,15 @@
-body {
-  background-image: url('images/full-moon-maplestory-4s6k1cntl6b37k0x.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;  /* Aligns content to the top */
-  align-items: center;  /* Centers the text horizontally */
-}
-
-.text-container {
-  text-align: center; /* Centers both h1 and p horizontally */
-  margin-top: 10%;  /* Adds space from the top of the page */
-}
-
-h1 {
-  font-size: 3em;  /* Makes the main title bigger */
-  margin: 0;  /* Removes margin around the title */
-}
-
-p {
-  font-size: 1.5em;  /* Makes the subheading smaller */
-  margin-top: 20px;  /* Adds space between the title and subheading */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maple Gear Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="text-container">
+    <h1>Welcome to Maple Gear Planner</h1>
+    <p>Your journey starts here.</p>
+  </div>
+</body>
+</html>
