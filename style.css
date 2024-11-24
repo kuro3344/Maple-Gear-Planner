@@ -9,13 +9,13 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;  /* Aligns content at the top */
+  justify-content: flex-start;  /* Aligns content to the top */
   align-items: center;  /* Centers the text horizontally */
 }
 
 .text-container {
-  text-align: center; /* Keeps text centered horizontally */
-  margin-top: 10%;  /* Adds some space from the top */
+  text-align: center; /* Centers both h1 and p horizontally */
+  margin-top: 10%;  /* Adds space from the top of the page */
 }
 
 h1 {
@@ -25,5 +25,5 @@ h1 {
 
 p {
   font-size: 1.5em;  /* Makes the subheading smaller */
-  margin-top: 20px;  /* Adds space between the title and the subheading */
+  margin-top: 20px;  /* Adds space between the title and subheading */
 }
