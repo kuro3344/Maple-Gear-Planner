@@ -6,7 +6,10 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
-  color: white;  /* Changes text color to white to contrast with dark background */
+  color: white;  /* Text color for contrast */
+
+  /* Debugging background settings */
+  border: 1px solid red;  /* Border to show where body ends */
 }
 
 h1 {
